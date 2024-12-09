@@ -731,9 +731,8 @@ p {
     fill: transparent;
 }
 
-.feedback-form-user-privacy-span.checked {
-    border: none;
-    fill: #F4F4FD;
+.feedback-form-user-privacy-container input[type="checkbox"]:checked+.feedback-form-user-privacy .feedback-form-user-privacy-span  {
+      background-color: #404bbf;
 }
 
 .feedback-form-user-privacy-link {
