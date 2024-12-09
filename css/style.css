@@ -484,11 +484,70 @@ p {
     fill: #f4f4fd;
 }
 
+.subscribe-container {}
+
+.subscribe-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+}
+
+.subscribe-form-label {}
+
+.subscribe-form-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.subscribe-form-input::placeholder,
+.subscribe-form-input:hover::placeholder,
+.subscribe-form-input:focus::placeholder {
+    color: #ffffff;
+}
+
+.subscribe-form-submit {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.subscribe-form-submit-icon {
+    margin-left: 16px;
+}
 
 /**************************************************/
 .modal-overlay {
     background-color: rgba(0, 0, 0, 0.5);
-  
+
     position: fixed;
     top: 0;
     left: 0;
@@ -498,18 +557,18 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     opacity: 0;
     pointer-events: none;
     transition: opacity 250ms ease-in-out;
-  }
-  
-  .modal-overlay.is-open {
+}
+
+.modal-overlay.is-open {
     opacity: 1;
     pointer-events: auto;
-  }
-  
-  .modal {
+}
+
+.modal {
     background-color: #fff;
     border-radius: 4px;
     padding: 16px;
@@ -517,5 +576,4 @@ p {
     max-width: 480px;
     max-height: 80%;
     overflow-y: auto;
-  }
-  
+}
