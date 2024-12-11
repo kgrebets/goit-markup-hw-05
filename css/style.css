@@ -575,7 +575,7 @@ p {
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    max-width: 480px;
+    min-width: 480px;
     max-height: 80%;
     overflow-y: auto;
     position: absolute;
@@ -583,7 +583,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 408px;
-    min-height: 584px;
+    min-height: 590px;
     background: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 1px 3px rgba(0, 0, 0, 0.12),
